@@ -1,0 +1,16 @@
+{
+    "admin@gmail.com": {
+        "username": "admin double again",
+        "role": "admin"
+    },
+    "rana@gmail.com": {
+        "username": "rana",
+        "password": "1111",
+        "role": "user3"
+    },
+    "sohan01772@gmail.com": {
+        "username": "sohan",
+        "password": "11223344",
+        "role": "user"
+    }
+}
