@@ -17,17 +17,6 @@ if ( isset( $users[ $email ] )){
 
 //update
 
-// if ( isset( $_POST['update_role'] ) ) {
-//     $user_email = $email;
-//     $new_role   = $_POST['role'];
-
-//     if ( isset( $users[$user_email] ) ) {
-//         $users[$user_email]['role'] = $new_role;
-//         file_put_contents( 'users.json', json_encode( $users, JSON_PRETTY_PRINT ) );
-//     }
-
-// }
-
 if ( isset( $_POST['update'] ) ) {
     $username = $_POST['username'];
     $email    = $_POST['email'];
