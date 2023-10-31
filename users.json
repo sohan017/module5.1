@@ -1,6 +1,7 @@
 {
     "admin@gmail.com": {
         "username": "admin double again",
+        "password": "111",
         "role": "admin"
     },
     "rana@gmail.com": {
@@ -12,5 +13,21 @@
         "username": "sohan",
         "password": "11223344",
         "role": "user"
+    },
+    "editor@gmail.com": {
+        "username": "raihan",
+        "password": "111",
+        "role": "editor"
+    },
+    "asdf@gmail.com": {
+        "username": "arafat",
+        "password": "111",
+        "role": ""
+    },
+    "qwqw@dev.local": {
+        "username": "asas",
+        "password": null,
+        "role": "",
+        "name": "asas"
     }
 }

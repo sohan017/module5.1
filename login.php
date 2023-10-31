@@ -19,8 +19,10 @@ if ( isset( $_POST['login'] ) ) {
         $errorMsg = "No user found.";
 
     } else{
-        if(($users[$email] !== NULL) && ($users[$email]["password"] === $password)){
+        if(($users[$email] === "admin@gmail.com") && ($users[$email]["password"] === $password)){
             header("Location:index.php");
+        }else{
+            header("Location:user.php");
         }
     }
 
